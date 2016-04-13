@@ -1,6 +1,6 @@
 # cap-api-docker
 
-Minimal Docker setup to access the CAP API via Ruby
+Minimal Docker setup to access the CAP API via Ruby.
 
 ## Dependencies
 
@@ -41,7 +41,7 @@ $ docker run -t -i cap-api ruby cap.rb
 
 ## Development
 
-If you want to edit `cap.rb`, you'll have to rebuild the image (`docker-build -t cap-api-ruby .`).
+If you want to edit `cap.rb`, you'll have to rebuild the image (`docker build -t cap-api-ruby .`).
 
 ## Public domain
 
